@@ -1,5 +1,5 @@
 // Create an array of different colours and then add a ‘click' event listener to the button.
-// Once the button is clicked, a different background color should appear.
+// Once the button is clicked, a different background colour should appear.
 
 // Create and array of colours.
 
@@ -21,7 +21,7 @@ const body = document.querySelector("body");
 // I need to now create a function which will change the colour of the page.
 // This function will be called in the event listener code.
 // I had to cheat and read the answer at this stage - I know how to add event listener,
-// but I had no idea about assigning the strings in the array to actual colors.
+// but I had no idea about assigning the strings in the array to actual colours.
 // I need to use ParseInt, so I watched a youtube tutorial on how to use it correctly.
 function changeBackground() {
   const colourIndex = parseInt(Math.random() * colours.length);
